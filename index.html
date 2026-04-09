@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RichLand Ltd. | Eco-Friendly Quiet Fans</title>
+<style>
+:root{--bg:#f4f7f6;--card:#fff;--text:#173036;--muted:#5f7176;--line:#dbe4e6;--accent:#0d7d67;--dark:#0f2227;}
+*{box-sizing:border-box} body{margin:0;font-family:Inter,Arial,sans-serif;background:linear-gradient(180deg,#f9fbfa,#eef4f3);color:var(--text)}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1240px;margin:0 auto;padding:28px 20px 80px}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center;margin-bottom:30px}
+@media(max-width:900px){.hero{grid-template-columns:1fr} .category-head{grid-template-columns:1fr !important}}
+.panel{background:rgba(255,255,255,.9);border:1px solid var(--line);border-radius:30px;box-shadow:0 18px 50px rgba(20,42,48,.08)}
+.hero-copy{padding:34px}
+.kicker{display:inline-block;padding:8px 12px;border-radius:999px;background:#e8f3ef;color:#0f705c;font-weight:700;font-size:13px;letter-spacing:.02em}
+h1{font-size:clamp(34px,5vw,58px);line-height:1.02;margin:16px 0 12px}
+.lead{font-size:18px;line-height:1.65;color:var(--muted);max-width:700px}
+.ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.btn{padding:14px 18px;border-radius:999px;font-weight:700;border:1px solid var(--line);background:#fff}
+.btn.primary{background:var(--dark);color:#fff;border-color:var(--dark)}
+.statbar{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:22px}
+.stat{padding:16px 14px;border:1px solid var(--line);border-radius:20px;background:#fff}
+.stat strong{display:block;font-size:20px}
+.hero-image{min-height:100%;padding:16px;display:flex;align-items:center;justify-content:center}
+.hero-image img{width:100%;max-height:560px;object-fit:contain;border-radius:22px;background:#fff}
+.section-title{margin:34px 0 18px}
+.section-title h2{font-size:30px;margin:0 0 8px}
+.section-title p{margin:0;color:var(--muted);line-height:1.65;max-width:760px}
+.grid{display:grid;gap:22px}
+.card{padding:24px}
+.category-head{display:grid;grid-template-columns:1fr 320px;gap:20px;align-items:center;margin-bottom:18px}
+.eyebrow{display:inline-block;padding:6px 10px;border-radius:999px;background:#edf5f3;color:#40636a;font-size:12px;font-weight:700;margin-bottom:10px}
+.category h2{margin:0 0 8px;font-size:30px}
+.category p{margin:0;color:var(--muted);line-height:1.6}
+.cover{width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:24px;padding:8px}
+.slider{position:relative}
+.viewport{position:relative;height:560px;background:#fff;border:1px solid var(--line);border-radius:28px;overflow:hidden}
+@media(max-width:900px){.viewport{height:440px}}
+.slide{position:absolute;inset:0;opacity:0;pointer-events:none;transition:opacity .28s ease}
+.slide.active{opacity:1;pointer-events:auto}
+.slide img{width:100%;height:100%;object-fit:contain;padding:10px}
+.arrow{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border:none;border-radius:999px;background:rgba(255,255,255,.96);box-shadow:0 12px 24px rgba(10,24,28,.12);font-size:22px;cursor:pointer;z-index:3}
+.prev{left:14px} .next{right:14px}
+.chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.chip{padding:10px 14px;border-radius:999px;background:#fff;border:1px solid var(--line);font-weight:600;cursor:pointer}
+.chip.active{background:var(--dark);color:#fff;border-color:var(--dark)}
+.thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(90px,1fr));gap:10px;margin-top:14px}
+.thumb{padding:0;border:1px solid var(--line);border-radius:16px;background:#fff;overflow:hidden;cursor:pointer;aspect-ratio:1/1}
+.thumb img{width:100%;height:100%;object-fit:contain;padding:6px}
+.thumb.active{border-color:var(--dark);box-shadow:0 0 0 2px rgba(15,34,39,.08) inset}
+.footer{margin-top:34px;padding:24px 0 0;color:#6e8186;font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <div class="panel hero-copy">
+      <span class="kicker">RichLand Ltd. · Shunde Source Factory</span>
+      <h1>Factory-Direct Eco-Friendly, Quiet Fans from Shunde, China</h1>
+      <p class="lead">RichLand Ltd. is a source factory with 30 years of home appliance manufacturing experience, focused on practical electric fan solutions for global buyers. This updated product page keeps the B12-style positioning while adding cleaner product galleries built from your uploaded images.</p>
+      <div class="ctas">
+        <a class="btn primary" href="#products">View Products</a>
+        <a class="btn" href="#contact">Send Inquiry</a>
+      </div>
+      <div class="statbar">
+        <div class="stat"><strong>30 Years</strong><span>Factory experience</span></div>
+        <div class="stat"><strong>OEM / ODM</strong><span>Private label support</span></div>
+        <div class="stat"><strong>MOQ 500 pcs</strong><span>Flexible bulk orders</span></div>
+        <div class="stat"><strong>7 / 30 / 3 Days</strong><span>Sample / bulk / stock lead time</span></div>
+      </div>
+    </div>
+    <div class="panel hero-image"><img src="assets/pedestal_fans_1.jpg" alt="RichLand featured fan"></div>
+  </section>
+
+  <section class="section-title" id="products">
+    <h2>Featured Product Categories</h2>
+    <p>The images below are now organized into cleaner website sections. I grouped the uploaded products by category and kept the white-background product look so the page feels closer to a real export website rather than a catalog screenshot.</p>
+  </section>
+  <div class="grid">
+<section class="category card" id="sec-0">
+  <div class="category-head">
+    <div>
+      <span class="eyebrow">Featured Category</span>
+      <h2>Pedestal Fans</h2>
+      <p>Quiet, household-friendly pedestal fans with classic, remote, inverter, and decorative styles.</p>
+    </div>
+    <img class="cover" src="assets/pedestal_fans_1.jpg" alt="Pedestal Fans cover">
+  </div>
+  <div class="slider" data-slider="0">
+    <button class="arrow prev" aria-label="Previous">&#10094;</button>
+    <div class="viewport"><div class="slide active" data-index="0"><img src="assets/pedestal_fans_1.jpg" alt="A27 Mechanical"></div><div class="slide" data-index="1"><img src="assets/pedestal_fans_2.jpg" alt="A47 Remote"></div><div class="slide" data-index="2"><img src="assets/pedestal_fans_3.jpg" alt="A52 Inverter Remote"></div><div class="slide" data-index="3"><img src="assets/pedestal_fans_4.jpg" alt="A53 Mechanical"></div><div class="slide" data-index="4"><img src="assets/pedestal_fans_5.jpg" alt="A55 Remote"></div><div class="slide" data-index="5"><img src="assets/pedestal_fans_6.jpg" alt="A57 Mechanical"></div><div class="slide" data-index="6"><img src="assets/pedestal_fans_7.jpg" alt="A57 Remote"></div><div class="slide" data-index="7"><img src="assets/pedestal_fans_8.jpg" alt="A58 Mechanical"></div><div class="slide" data-index="8"><img src="assets/pedestal_fans_9.jpg" alt="A58 Remote"></div><div class="slide" data-index="9"><img src="assets/pedestal_fans_10.jpg" alt="A59 Standing Fan"></div><div class="slide" data-index="10"><img src="assets/pedestal_fans_11.jpg" alt="A60 Mechanical"></div><div class="slide" data-index="11"><img src="assets/pedestal_fans_12.jpg" alt="A60 Remote"></div><div class="slide" data-index="12"><img src="assets/pedestal_fans_13.jpg" alt="A73 Industrial Stand Fan"></div><div class="slide" data-index="13"><img src="assets/pedestal_fans_14.jpg" alt="A83 Industrial Stand Fan"></div><div class="slide" data-index="14"><img src="assets/pedestal_fans_15.jpg" alt="H8 Mechanical"></div></div>
+    <button class="arrow next" aria-label="Next">&#10095;</button>
+    <div class="chips"><button class="chip active" data-index="0">A27 Mechanical</button><button class="chip" data-index="1">A47 Remote</button><button class="chip" data-index="2">A52 Inverter Remote</button><button class="chip" data-index="3">A53 Mechanical</button><button class="chip" data-index="4">A55 Remote</button><button class="chip" data-index="5">A57 Mechanical</button><button class="chip" data-index="6">A57 Remote</button><button class="chip" data-index="7">A58 Mechanical</button><button class="chip" data-index="8">A58 Remote</button><button class="chip" data-index="9">A59 Standing Fan</button><button class="chip" data-index="10">A60 Mechanical</button><button class="chip" data-index="11">A60 Remote</button><button class="chip" data-index="12">A73 Industrial Stand Fan</button><button class="chip" data-index="13">A83 Industrial Stand Fan</button><button class="chip" data-index="14">H8 Mechanical</button></div>
+    <div class="thumbs"><button class="thumb active" data-index="0"><img src="assets/pedestal_fans_1.jpg" alt="A27 Mechanical"></button><button class="thumb" data-index="1"><img src="assets/pedestal_fans_2.jpg" alt="A47 Remote"></button><button class="thumb" data-index="2"><img src="assets/pedestal_fans_3.jpg" alt="A52 Inverter Remote"></button><button class="thumb" data-index="3"><img src="assets/pedestal_fans_4.jpg" alt="A53 Mechanical"></button><button class="thumb" data-index="4"><img src="assets/pedestal_fans_5.jpg" alt="A55 Remote"></button><button class="thumb" data-index="5"><img src="assets/pedestal_fans_6.jpg" alt="A57 Mechanical"></button><button class="thumb" data-index="6"><img src="assets/pedestal_fans_7.jpg" alt="A57 Remote"></button><button class="thumb" data-index="7"><img src="assets/pedestal_fans_8.jpg" alt="A58 Mechanical"></button><button class="thumb" data-index="8"><img src="assets/pedestal_fans_9.jpg" alt="A58 Remote"></button><button class="thumb" data-index="9"><img src="assets/pedestal_fans_10.jpg" alt="A59 Standing Fan"></button><button class="thumb" data-index="10"><img src="assets/pedestal_fans_11.jpg" alt="A60 Mechanical"></button><button class="thumb" data-index="11"><img src="assets/pedestal_fans_12.jpg" alt="A60 Remote"></button><button class="thumb" data-index="12"><img src="assets/pedestal_fans_13.jpg" alt="A73 Industrial Stand Fan"></button><button class="thumb" data-index="13"><img src="assets/pedestal_fans_14.jpg" alt="A83 Industrial Stand Fan"></button><button class="thumb" data-index="14"><img src="assets/pedestal_fans_15.jpg" alt="H8 Mechanical"></button></div>
+  </div>
+</section>
+
+<section class="category card" id="sec-1">
+  <div class="category-head">
+    <div>
+      <span class="eyebrow">Featured Category</span>
+      <h2>Table Fans</h2>
+      <p>Compact desktop and storage table fans for bedrooms, dormitories, counters, and personal cooling.</p>
+    </div>
+    <img class="cover" src="assets/table_fans_1.jpg" alt="Table Fans cover">
+  </div>
+  <div class="slider" data-slider="1">
+    <button class="arrow prev" aria-label="Previous">&#10094;</button>
+    <div class="viewport"><div class="slide active" data-index="0"><img src="assets/table_fans_1.jpg" alt="K6 Table Fan"></div><div class="slide" data-index="1"><img src="assets/table_fans_2.jpg" alt="K11 Table Fan"></div><div class="slide" data-index="2"><img src="assets/table_fans_3.jpg" alt="K12 Storage Table Fan"></div><div class="slide" data-index="3"><img src="assets/table_fans_4.jpg" alt="K13 Storage Table Fan Blue"></div><div class="slide" data-index="4"><img src="assets/table_fans_5.jpg" alt="K13 Storage Table Fan Black"></div><div class="slide" data-index="5"><img src="assets/table_fans_6.jpg" alt="Square Reversible Fan Pink"></div></div>
+    <button class="arrow next" aria-label="Next">&#10095;</button>
+    <div class="chips"><button class="chip active" data-index="0">K6 Table Fan</button><button class="chip" data-index="1">K11 Table Fan</button><button class="chip" data-index="2">K12 Storage Table Fan</button><button class="chip" data-index="3">K13 Storage Table Fan Blue</button><button class="chip" data-index="4">K13 Storage Table Fan Black</button><button class="chip" data-index="5">Square Reversible Fan Pink</button></div>
+    <div class="thumbs"><button class="thumb active" data-index="0"><img src="assets/table_fans_1.jpg" alt="K6 Table Fan"></button><button class="thumb" data-index="1"><img src="assets/table_fans_2.jpg" alt="K11 Table Fan"></button><button class="thumb" data-index="2"><img src="assets/table_fans_3.jpg" alt="K12 Storage Table Fan"></button><button class="thumb" data-index="3"><img src="assets/table_fans_4.jpg" alt="K13 Storage Table Fan Blue"></button><button class="thumb" data-index="4"><img src="assets/table_fans_5.jpg" alt="K13 Storage Table Fan Black"></button><button class="thumb" data-index="5"><img src="assets/table_fans_6.jpg" alt="Square Reversible Fan Pink"></button></div>
+  </div>
+</section>
+
+<section class="category card" id="sec-2">
+  <div class="category-head">
+    <div>
+      <span class="eyebrow">Featured Category</span>
+      <h2>Wall Fans</h2>
+      <p>Wall-mounted options for homes, shops, and utility spaces, including decorative and mosquito-repellent styles.</p>
+    </div>
+    <img class="cover" src="assets/wall_fans_1.jpg" alt="Wall Fans cover">
+  </div>
+  <div class="slider" data-slider="2">
+    <button class="arrow prev" aria-label="Previous">&#10094;</button>
+    <div class="viewport"><div class="slide active" data-index="0"><img src="assets/wall_fans_1.jpg" alt="B4 Wall Fan"></div><div class="slide" data-index="1"><img src="assets/wall_fans_2.jpg" alt="B10 Wall Fan"></div><div class="slide" data-index="2"><img src="assets/wall_fans_3.jpg" alt="B15 Wall Fan"></div><div class="slide" data-index="3"><img src="assets/wall_fans_4.jpg" alt="B18 Remote Wall Fan"></div><div class="slide" data-index="4"><img src="assets/wall_fans_5.jpg" alt="B19 Mechanical Wall Fan"></div><div class="slide" data-index="5"><img src="assets/wall_fans_6.jpg" alt="Mosquito-Repellent Wall Fan"></div></div>
+    <button class="arrow next" aria-label="Next">&#10095;</button>
+    <div class="chips"><button class="chip active" data-index="0">B4 Wall Fan</button><button class="chip" data-index="1">B10 Wall Fan</button><button class="chip" data-index="2">B15 Wall Fan</button><button class="chip" data-index="3">B18 Remote Wall Fan</button><button class="chip" data-index="4">B19 Mechanical Wall Fan</button><button class="chip" data-index="5">Mosquito-Repellent Wall Fan</button></div>
+    <div class="thumbs"><button class="thumb active" data-index="0"><img src="assets/wall_fans_1.jpg" alt="B4 Wall Fan"></button><button class="thumb" data-index="1"><img src="assets/wall_fans_2.jpg" alt="B10 Wall Fan"></button><button class="thumb" data-index="2"><img src="assets/wall_fans_3.jpg" alt="B15 Wall Fan"></button><button class="thumb" data-index="3"><img src="assets/wall_fans_4.jpg" alt="B18 Remote Wall Fan"></button><button class="thumb" data-index="4"><img src="assets/wall_fans_5.jpg" alt="B19 Mechanical Wall Fan"></button><button class="thumb" data-index="5"><img src="assets/wall_fans_6.jpg" alt="Mosquito-Repellent Wall Fan"></button></div>
+  </div>
+</section>
+
+<section class="category card" id="sec-3">
+  <div class="category-head">
+    <div>
+      <span class="eyebrow">Featured Category</span>
+      <h2>Air Circulator & Floor Fans</h2>
+      <p>Floor, box, and heavy-duty air movement options for broader airflow and practical cooling.</p>
+    </div>
+    <img class="cover" src="assets/air_circulator_and_floor_fans_1.jpg" alt="Air Circulator & Floor Fans cover">
+  </div>
+  <div class="slider" data-slider="3">
+    <button class="arrow prev" aria-label="Previous">&#10094;</button>
+    <div class="viewport"><div class="slide active" data-index="0"><img src="assets/air_circulator_and_floor_fans_1.jpg" alt="Box Fan"></div><div class="slide" data-index="1"><img src="assets/air_circulator_and_floor_fans_2.jpg" alt="Box Fan Remote"></div><div class="slide" data-index="2"><img src="assets/air_circulator_and_floor_fans_3.jpg" alt="Floor Fan A8"></div><div class="slide" data-index="3"><img src="assets/air_circulator_and_floor_fans_4.jpg" alt="Floor Fan A9"></div><div class="slide" data-index="4"><img src="assets/air_circulator_and_floor_fans_5.jpg" alt="Floor Fan A11"></div><div class="slide" data-index="5"><img src="assets/air_circulator_and_floor_fans_6.jpg" alt="Industrial Floor Fan A43"></div></div>
+    <button class="arrow next" aria-label="Next">&#10095;</button>
+    <div class="chips"><button class="chip active" data-index="0">Box Fan</button><button class="chip" data-index="1">Box Fan Remote</button><button class="chip" data-index="2">Floor Fan A8</button><button class="chip" data-index="3">Floor Fan A9</button><button class="chip" data-index="4">Floor Fan A11</button><button class="chip" data-index="5">Industrial Floor Fan A43</button></div>
+    <div class="thumbs"><button class="thumb active" data-index="0"><img src="assets/air_circulator_and_floor_fans_1.jpg" alt="Box Fan"></button><button class="thumb" data-index="1"><img src="assets/air_circulator_and_floor_fans_2.jpg" alt="Box Fan Remote"></button><button class="thumb" data-index="2"><img src="assets/air_circulator_and_floor_fans_3.jpg" alt="Floor Fan A8"></button><button class="thumb" data-index="3"><img src="assets/air_circulator_and_floor_fans_4.jpg" alt="Floor Fan A9"></button><button class="thumb" data-index="4"><img src="assets/air_circulator_and_floor_fans_5.jpg" alt="Floor Fan A11"></button><button class="thumb" data-index="5"><img src="assets/air_circulator_and_floor_fans_6.jpg" alt="Industrial Floor Fan A43"></button></div>
+  </div>
+</section>
+</div>
+
+  <section class="section-title" id="contact">
+    <h2>Contact for Inquiry</h2>
+    <p>Contact Person: Bosco Leung · Email: ht-888@163.com · WhatsApp: +1 914 658 9879 · CCC / NORDOM available for selected markets and models.</p>
+  </section>
+  <div class="footer">This version keeps the earlier B12-style business content while expanding the product side with your uploaded images. Air circulator-specific single-product images can be added next when you upload them.</div>
+</div>
+<script>
+document.querySelectorAll('.slider').forEach(slider=>{
+  const slides=[...slider.querySelectorAll('.slide')];
+  const chips=[...slider.querySelectorAll('.chip')];
+  const thumbs=[...slider.querySelectorAll('.thumb')];
+  let i=0;
+  function show(n){
+    i=(n+slides.length)%slides.length;
+    slides.forEach((s,idx)=>s.classList.toggle('active',idx===i));
+    chips.forEach((c,idx)=>c.classList.toggle('active',idx===i));
+    thumbs.forEach((t,idx)=>t.classList.toggle('active',idx===i));
+  }
+  slider.querySelector('.prev').onclick=()=>show(i-1);
+  slider.querySelector('.next').onclick=()=>show(i+1);
+  chips.forEach((c,idx)=>c.onclick=()=>show(idx));
+  thumbs.forEach((t,idx)=>t.onclick=()=>show(idx));
+});
+</script>
+</body></html>
