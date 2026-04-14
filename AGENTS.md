@@ -3,7 +3,9 @@
 ## Project purpose
 This repository contains the new RichLand Ltd. website project.
 
-The site is a static B2B export product website for electric fans and related appliances.
+The site is a static B2B export product website for electric fans and related home appliances.
+
+RichLand / Huatian is a manufacturer-based export business, not a consumer retail brand, not a startup SaaS company, and not a portfolio-style design project.
 
 The design direction should reference:
 - Panasonic North America for homepage structure and corporate website rhythm
@@ -15,6 +17,93 @@ Only borrow:
 - section rhythm
 - category logic
 - visual hierarchy
+
+---
+
+## Company background
+RichLand represents Huatian Home Appliance Factory, based in Shunde, Foshan, Guangdong, China.
+
+The company is a professional manufacturer with around 25 years of factory experience, focused primarily on electric fan production, while also supporting related appliance lines such as:
+- induction cookers
+- electric pressure cookers
+- electric heaters
+- air treatment / air-cleaning related products
+
+The factory has approximately 30,000 square meters of self-owned factory space and an integrated production chain covering:
+- plastics
+- molds
+- electronics
+- motors
+- metal parts
+- assembly
+- development
+- inspection
+
+Core fan product lines include:
+- pedestal fans
+- table fans
+- wall fans
+- desk-pedestal fans
+- box / louver-style fans
+- industrial / high-power fans
+
+Common fan size ranges include:
+- 250mm
+- 300mm
+- 350mm
+- 400mm
+- 450mm
+- 500mm
+
+The business should be presented as:
+- factory-based
+- export-oriented
+- practical
+- reliable
+- quality-focused
+- capable of OEM / ODM support
+- able to support different regional market requirements
+
+Do not frame the company as a trendy lifestyle brand or a flashy direct-to-consumer brand.
+
+---
+
+## Brand and content tone
+The tone should feel:
+- professional
+- export-oriented
+- trustworthy
+- calm
+- clear
+- manufacturer-based
+- practical rather than exaggerated
+
+Preferred messaging themes:
+- stable manufacturing capability
+- broad product range
+- integrated factory support
+- OEM / ODM cooperation
+- reliable export service
+- practical communication and inquiry conversion
+- long-term cooperation
+- competitive value with dependable quality
+
+Avoid wording that feels:
+- overly promotional
+- old-fashioned trade-fair slogan style
+- startup-like
+- vague and generic
+- too decorative or emotional
+
+Avoid overusing phrases such as:
+- best in the world
+- revolutionary
+- cutting-edge leader
+- unbeatable
+- perfect solution
+
+Do not write in a boastful or inflated style.
+Prefer grounded B2B language.
 
 ---
 
@@ -38,6 +127,11 @@ If a task says:
 - Do not introduce frameworks unless explicitly requested
 - Keep implementation lightweight
 
+Additional maintainability preference:
+- keep configuration in dedicated files when appropriate
+- keep product/catalog data separate from page markup when appropriate
+- avoid scattering reusable logic across many inline scripts
+
 ---
 
 ## Design goals
@@ -49,11 +143,16 @@ The website should feel:
 - premium but restrained
 - B2B-oriented
 
+It should look like a real export manufacturer website, not a concept landing page.
+
 Avoid:
 - flashy consumer-style layouts
 - clutter
 - random experimentation
 - overly decorative effects
+- SaaS dashboard aesthetics
+- portfolio-style art direction
+- excessive animation
 
 ---
 
@@ -69,6 +168,29 @@ Use a Hunter Fan-style product logic:
 - product groupings should feel intentional
 - homepage should guide users into product types clearly
 
+Homepage priorities:
+- make fan categories the main business focus
+- keep related appliance lines visible but secondary
+- support inquiry conversion clearly
+- preserve practical factory/export information
+
+---
+
+## Product and business priorities
+Primary business focus:
+- electric fans and fan-related categories
+
+Secondary product lines:
+- induction cookers
+- electric pressure cookers
+- electric heaters
+- air treatment related products
+
+When presenting products:
+- prioritize fan categories visually and structurally
+- keep related appliance lines as supporting categories, not the main homepage story
+- keep product browsing clear and practical for importers, distributors, and wholesale buyers
+
 ---
 
 ## Content rules
@@ -78,12 +200,44 @@ Preserve important business information unless explicitly told otherwise:
 - MOQ
 - lead time
 - contact details
+- manufacturer identity
+- export-oriented positioning
 
 Do not invent:
 - certifications
 - product specs
 - technical claims
 - compliance claims
+- legal/export approvals
+- factory capacities beyond what is already confirmed
+
+When rewriting company introduction or about content:
+- reflect the real factory background
+- emphasize manufacturing experience, integrated production capability, and product breadth
+- keep the wording suitable for an export website
+- avoid literal translation of old Chinese brochure language
+
+---
+
+## Inquiry and conversion rules
+The website should support practical B2B inquiry behavior.
+
+Inquiry-related UI and copy should feel suitable for:
+- importers
+- distributors
+- wholesalers
+- private-label buyers
+
+Prefer:
+- clear inquiry paths
+- practical field labels
+- structured buyer information
+- restrained but obvious CTA language
+
+Avoid:
+- overly salesy CTA language
+- consumer e-commerce tone
+- excessive repetition of the same business keywords in nearby sections
 
 ---
 
@@ -92,6 +246,8 @@ Do not invent:
 - do not stretch images
 - keep image display sizes visually consistent
 - do not rename or move large numbers of files unless necessary
+- prefer trimmed, presentation-ready product images where available
+- avoid mixing catalog assets with non-catalog support images unless needed intentionally
 
 ---
 
