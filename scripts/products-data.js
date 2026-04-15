@@ -159,7 +159,7 @@ window.RICHLAND_PRODUCTS = [
     "category": "Pedestal Fans",
     "name": "18 inch A43 Black",
     "model": "A43",
-    "image": "assets/01_Pedestal Fans/Pedestal_18 inch_A43_Black_trimmed.webp"
+    "image": "assets/01_Pedestal Fans/Pedestal_18_inch_A43_Black_trimmed.webp"
   },
   {
     "category": "Pedestal Fans",
@@ -297,31 +297,31 @@ window.RICHLAND_PRODUCTS = [
     "category": "Pedestal Fans",
     "name": "20 inch C29",
     "model": "C29",
-    "image": "assets/01_Pedestal Fans/Pedestal_20 inch_C29_trimmed.webp"
+    "image": "assets/01_Pedestal Fans/Pedestal_20_inch_C29_trimmed.webp"
   },
   {
     "category": "Pedestal Fans",
     "name": "A16 inch 66 Gold Five Leaves",
     "model": "A16",
-    "image": "assets/01_Pedestal Fans/Pedestal_A16 inch_66__Gold_ Five Leaves_trimmed.webp"
+    "image": "assets/01_Pedestal Fans/Pedestal_16 inch_A66__Gold_ Five Leaves_trimmed.webp"
   },
   {
     "category": "Pedestal Fans",
     "name": "A18 inch 63 Orange",
     "model": "A18",
-    "image": "assets/01_Pedestal Fans/Pedestal_A18 inch_63_Orange_trimmed.webp"
+    "image": "assets/01_Pedestal Fans/Pedestal_18 inch_A63_Orange_trimmed.webp"
   },
   {
     "category": "Pedestal Fans",
-    "name": "A18 inch 63",
-    "model": "A18",
-    "image": "assets/01_Pedestal Fans/Pedestal_A18 inch_63_trimmed.webp"
+    "name": "18 inch A63",
+    "model": "A63",
+    "image": "assets/01_Pedestal Fans/Pedestal_18_inch_A63_trimmed.webp"
   },
   {
     "category": "Pedestal Fans",
-    "name": "A18 inch 65 BlackGold",
-    "model": "A18",
-    "image": "assets/01_Pedestal Fans/Pedestal_A18 inch_65_BlackGold_trimmed.webp"
+    "name": "18 inch A65 BlackGold",
+    "model": "A65",
+    "image": "assets/01_Pedestal Fans/Pedestal_18_inch_A65_BlackGold_trimmed.webp"
   },
   {
     "category": "Pedestal Fans",
@@ -825,7 +825,7 @@ window.RICHLAND_PRODUCTS = [
     "category": "Air Circulators",
     "name": "S1 Green Remote",
     "model": "S1",
-    "image": "assets/04_Air Circulators/Air Circulators_S1_Green-Remote_trimmed.webp"
+    "image": "assets/04_Air Circulators/Air_Circulators_S1_Green-Remote_trimmed.webp"
   },
   {
     "category": "Air Circulators",
