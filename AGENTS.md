@@ -193,6 +193,18 @@ When presenting products:
 
 ---
 
+## Product data context
+Before working on product cards, filters, variants, product data normalization, category pages, or detail pages, always read:
+
+- `docs/product-feature-context.md`
+
+## Product data rules
+- Use only the feature keywords explicitly listed in `docs/product-feature-context.md`.
+- Do not invent functions or selling points not present in the catalog.
+- If a model has multiple colors, treat color as a variant, not a separate product model.
+- Prefer normalized feature tags for filtering, and Chinese source keywords for display/reference.
+---
+
 ## Content rules
 Preserve important business information unless explicitly told otherwise:
 - company name
